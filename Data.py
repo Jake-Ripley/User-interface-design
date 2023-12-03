@@ -11,7 +11,7 @@ def time_to_seconds(time_str):
         seconds = int(time_str.replace('s', ''))
     return minutes * 60 + seconds
 
-# Data from the image
+# Data from the participants 
 data = {
     "JC": ["44s", "11s", "35s", "1m 8s", "1m 45s", "2m 8s", "32s", "35s", "41s", "29s"],
     "JM": ["40s", "10s", "30s", "57s", "1m", "1m 30s", "25s", "33s", "32s", "35s"],
